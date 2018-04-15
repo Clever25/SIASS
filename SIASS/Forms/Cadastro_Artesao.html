@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<link rel="stylesheet" type="text/css" href="CSS/css.css">
-	
-	
-	</head>
-	<body></body>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+    </head>
 
+    <body>
+        <p>Codigo: <input type="text" name="codigo"><br></p>
+        <p>Ativo</p>
+            <fieldset>
+                <legend>Dados</legend>
+                <p>Nome: <input type="text" name="nomeArtesao"><br></p>
+                <p>Nascimento: <input type="text" name="nascimento"><br></p>
+                <p>CPF: <input type="text" name="cpf"><br></p>
+                <p>RG: <input type="text" name="rg"></p>
+                <p>Código Artesão <input type="text" name="codArtesao"></p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Endereço</legend>
+                    <p>CEP: <input type="text" name="nomeArtesao"><br></p>
+                    <p><select name="estados">
+                            <option value="">Selecione seu estado</option>
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AM">AM</option>
+                            <option value="AP">AP</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MG">MG</option>
+                            <option value="MS">MS</option>
+                            <option value="MT">MT</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="PR">PR</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SE">SE</option>
+                            <option value="SP">SP</option>
+                            <option value="TO">TO</option>
+                         </select><br></p>
+                    <p>Cidade: <input type="text" name="cidade"><br></p>
+                    <p>Endereço: <input type="text" name="endereco"><br></p>
+                    <p>Bairro: <input type="text" name="bairro"><br></p>
+            </fieldset>
 
-
-
-
+            <fieldset>
+                <legend>Contato</legend>
+                    <p>E-mail: <input type="text" name="email"><br></p>
+                    <p>Celular: <input type="text" name="celular"><br></p>
+            </fieldset>
+            <button type="button">Cadastrar</button>
+            <button type="button">Salvar</button>
+            <button type="button">Cancelar</button>
+    </body>
 </html>
