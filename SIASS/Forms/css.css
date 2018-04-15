@@ -1,0 +1,305 @@
+body {
+	margin-bottom: 120px;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header {
+	text-align: center;
+}
+
+input[type="checkbox"] {
+	margin-right: 5px !important;
+}
+
+.checkPastasRede {
+	margin-top: 13px !important;
+	text-align: center !important;
+}
+
+.customCheckbox label {
+	float: left;
+	padding-left: 0 !important;
+	width: 100%;
+}
+
+.customCheckbox>input {
+	margin-right: 6px !important;
+	margin-top: 6px !important;
+}
+
+.inlineCheckbox {
+	float: left;
+	margin-right: 10px;
+}
+
+.inlineCheckbox>span {
+	margin-left: 6px;
+}
+
+.customAlert {
+	margin-top: 10px;
+}
+
+.btnremover {
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.itemPastaRede {
+	padding-bottom: 12px !important;
+	margin: 0 2px 2px 2px !important;
+	border: 1px solid rgb(221, 221, 221);
+}
+
+.removido {
+	color: #bf4040 !important;
+	text-decoration: line-through;
+}
+
+.inserido {
+	color: #428442 !important;
+}
+
+.fluigicon {
+	position: initial !important;
+}
+
+#opcionais {
+	float: left;
+}
+
+#opcoesDisponiveis {
+	float: left;
+	width: 40%;
+}
+
+#btnAcoes {
+	float: left;
+	text-align: center;
+	width: 159px;
+}
+
+#opcoesUtilizadas {
+	float: right;
+	width: 40%;
+}
+
+#btnAcoes button {
+	margin-bottom: 10px;
+	margin-top: 10em;
+	width: 30px;
+	padding-left: 8px;
+}
+
+#opcoesDisponiveis>select, #opcoesUtilizadas>select {
+	height: 250px;
+	padding: 2px;
+	width: 330px;
+}
+
+#opcoesDisponiveis label {
+	float: left;
+	width: 100%;
+}
+
+#opcoesDisponiveis select {
+	float: left;
+}
+
+.popover {
+	max-width: 600px !important;
+}
+
+.valorDisponivel {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.form-control {
+	border-radius: 0 !important;
+}
+
+.fs-width-100 {
+	width: 100px !important;
+}
+
+.fs-width-350 {
+	width: 350px !important;
+}
+
+.fs-width-250 {
+	width: 250px !important;
+}
+
+.fs-width-120 {
+	width: 120px !important;
+}
+
+.margin-right-5 {
+	margin-right: 5px !important;
+}
+
+.customBtn {
+	float: left !important;
+	margin-left: 0 !important;
+	padding: 10px !important;
+	width: 32px !important;
+	height: 33px;
+}
+
+.hidden {
+	display: none;
+}
+
+.fs-margin-right-10 {
+	margin-right: 10px;
+}
+
+.form-control {
+	padding: 6px 5px !important;
+}
+
+#legenda p {
+	margin: 0;
+}
+
+#legenda {
+	border: 1px solid goldenrod;
+	color: peru;
+	font-size: 11px;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+.fluig-style-guide legend {
+	-moz-border-bottom-colors: none !important;
+	-moz-border-left-colors: none !important;
+	-moz-border-right-colors: none !important;
+	-moz-border-top-colors: none !important;
+	border-color: none !important;
+	border-image: none !important;
+	border-style: none none none !important;
+	border-width: none !important;
+	color: inherit !important;
+	display: block !important;
+	font-size: inherit !important;
+	line-height: inherit !important;
+	margin-bottom: 0 !important;
+	width: auto !important;
+	padding: 0 10px !important;
+}
+
+.width-90-percent {
+	width: 90% !important;
+}
+
+.readOnly {
+	background-color: #eee;
+}
+
+.registroReport {
+	float: left;
+	width: 40%;
+}
+
+.destino {
+	float: right;
+	width: 44%;
+}
+
+.arrow {
+	float: left;
+	width: 15%;
+	padding-top: 20px;
+	/*background-image: url("arrow.png");*/
+}
+
+.tdEdit, .tdRemove {
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.datasheet th {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	padding: 0 8px !important;
+	height: 28px;
+}
+
+.datasheet th:last-child {
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+}
+
+.width-20-percent {
+	width: 250px !important;
+}
+
+.width-10-percent {
+	width: 75px !important;
+}
+
+.datasheet {
+	table-layout: fixed;
+	width: 1800px;
+}
+
+.datasheet input {
+	width: 100%;
+	height: 28px;
+	padding: 2px;
+}
+
+.customInput {
+	border: 1px solid #ddd
+}
+
+.customSelect {
+	height: 28px;
+	width: 35px;
+	border: 1px solid #ddd;
+}
+
+#justificativa_solicit {
+	height: 100px;
+}
+
+.alertForaPrazo {
+	border: 1px solid brown;
+	padding: 2px 20px;
+	background-color: antiquewhite;
+	color: brown;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#painelOrigem {
+	margin-bottom: 3em;
+}
+
+@media screen and (max-width: 600px) {
+	.registroReport b, .destino b {
+		float: left;
+		width: 100% !important;
+	}
+	#justificativaReprovacao {
+		margin-top: 10px;
+	}
+}
+
+.list-arrows {
+	margin-top: 14%;
+}
+
+divCliente label {
+    float: left;
+}
