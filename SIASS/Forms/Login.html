@@ -4,15 +4,18 @@
         <meta charset="utf-8" />
         <script type="text/javascript" src="../Events/Validate.js"></script>
         <title>Login</title>
-        
+        <link href="CSS/CSS.css" type="text/css" rel="stylesheet">
     </head>
-<fieldset>
     <body>
+    <fieldset>
         <p>Usuario: <input type="text" name="usuario" placeholder="Digite nome de usuario"><br></p>
         <p>Senha: <input type="password" name="password" id="senha" placeholder="Digite sua senha"><br></p>
-        <p><input type="button" onclick="validarLogin()" value="Entrar"></p>
-        <p><input type="checkbox" onclick="mostrarSenha()"> Mostrar Senha<br></p>
+        <p><input class="select" type="checkbox" onclick="mostrarSenha()"> Mostrar Senha<br></p>
+        <button  onclick="validarLogin()">Entrar</button>
+    </fieldset>
+    
     </body>
-</fieldset>
+    
+
 
 </html>
