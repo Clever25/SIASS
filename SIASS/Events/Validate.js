@@ -13,7 +13,7 @@ function validarLogin() {
 
 	var usuario = document.getElementById('usuario').value;
 	var senha = document.getElementById('senha').value;
-
+	var done = 0;
 	if (usuario == "admin" && senha == "admin") {
 		//trocar caminho para a index
 		window.location = "../Forms/Cadastro_Artesao.html";
