@@ -1,4 +1,8 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E0F8F1;
+    
+}
 form {border: 3px solid #f1f1f1; padding: 0%; top:0; margin: 0%;}
 
 input[type=text], input[type=password] {
@@ -107,7 +111,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #00FF7F;
 }
 
 li.dropdown {
@@ -129,6 +133,7 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
+    border: 1px outset #000000;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
