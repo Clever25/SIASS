@@ -16,7 +16,7 @@ function validarLogin() {
 	var done = 0;
 	if (usuario == "admin" && senha == "admin") {
 		//trocar caminho para a index
-		window.location = "../Forms/Cadastro_Artesao.html";
+		window.location = "../Forms/Home.html";
 		done = 1;
 	} if (done==0) {
 		
