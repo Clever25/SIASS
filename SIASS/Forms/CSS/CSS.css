@@ -20,21 +20,42 @@ fieldset {
  
 }
 
+input, textarea, select {
+
+    border-radius: 12px;
+}
+
+
+
 button {
-    background-color: #4CAF50;
+    background-color: #238E23;
+    border: outset 1.5px #27a727;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
-    width: 20%;
-    position: center;
-    border: 3px outset #4CAF50;
-     
-    
+    border-radius: 12px;
+    width: 20%;   
 }
 
 button:hover {
     opacity: 0.8;
+    border: inset #27a727;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.btn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #238E23;
 }
 .center{
 	border-style: inset;
@@ -46,17 +67,6 @@ button:hover {
     width: 50%;
     text-align: center;
     font-size: 18px;
-}
-
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-}
-.btn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #4CAF50;
 }
 
 .imgcontainer {
@@ -96,6 +106,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #238E23;
+    border-radius: 12px;
 }
 
 li {
@@ -106,12 +117,13 @@ li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 30px;
     text-decoration: none;
+    font: bold;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #00FF7F;
+    background-color: #27a727;
 }
 
 li.dropdown {
@@ -121,10 +133,11 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #63e563;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    
 }
 
 .dropdown-content a {
@@ -133,7 +146,9 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
-    border: 1px outset #000000;
+    border: 1.5px outset #27a727;
+    border-radius: 12px;
+    margin: -2px;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
@@ -142,3 +157,18 @@ li.dropdown {
     display: block;
 }
 /* Fim do barra de navegacao */
+
+/* Inicio Roda Pe */
+.rodape-pagina {
+
+	background-color: #238E23;
+	color: #F2FFFC;
+    clear: both;
+    position: fixed;
+	bottom: 0;
+	width: 96%;
+    padding: 25px 30px;
+    border-radius: 12px;
+       
+}
+/* Fim do Roda pe*/
