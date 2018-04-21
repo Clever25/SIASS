@@ -7,9 +7,10 @@
         <link href="CSS/CSS.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-    <fieldset>
-        <p>Usuario: <input type="text" name="usuario" id="usuario" placeholder="Digite nome de usuario"><br></p>
-        <p>Senha: <input type="password" name="password" id="senha" placeholder="Digite sua senha"><br></p>
+    <fieldset class="center">
+    	<img class="avatar" src="../Images/SiassLogo.png" alt="Logo Siass">
+        <p>Usuario: <input id="usuario"type="text" name="usuario" placeholder="Digite nome de usuario" value=""><br></p>
+        <p>Senha: <input type="password" name="password" id="senha" placeholder="Digite sua senha" value=""><br></p>
         <p><input class="select" type="checkbox" onclick="mostrarSenha()"> Mostrar Senha<br></p>
         <button  onclick="validarLogin()">Entrar</button>
     </fieldset>
