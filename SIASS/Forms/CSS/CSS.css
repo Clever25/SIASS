@@ -1,12 +1,12 @@
 body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
+form {border: 3px solid #f1f1f1; padding: 0%; top:0; margin: 0%;}
 
 input[type=text], input[type=password] {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 3px inset #ccc;
+    border: 1px inset #ccc;
     box-sizing: border-box;
 }
 fieldset {
@@ -15,9 +15,6 @@ fieldset {
  padding:.35em .625em .75em;
  
 }
-menu{
-	
-}
 
 button {
     background-color: #4CAF50;
@@ -25,18 +22,16 @@ button {
     padding: 14px 20px;
     margin: 8px 0;
     cursor: pointer;
-    width: 50%;
+    width: 20%;
     position: center;
-    border: 5px outset #4CAF50;
+    border: 3px outset #4CAF50;
      
     
 }
 
 button:hover {
     opacity: 0.8;
-    border: 5px inset; 
 }
-
 .center{
 	border-style: inset;
 	border-width: 5px;
@@ -90,3 +85,63 @@ span.psw {
     }
 }
 
+/*Criacao da barra de menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Inicio do barra de navegacao */
+.dropdownLi {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/* Fim do barra de navegacao */

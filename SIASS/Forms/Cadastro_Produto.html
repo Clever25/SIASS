@@ -1,47 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <link href="CSS/CSS.css" type="text/css" rel="stylesheet">
-        <title>Cadastro de Produto</title>
-    </head>
 
-    <body>
-        <main>
-        	<header>
-    		<table>
-    			<tr>
-    				<a href="Cadastro_Artesao.html">Cadastrar Artesão</a>|
-    				<a href="Home.html">Home</a>	
-    			</tr>
-    		
-    		</table>
-            <fieldset>
-                    <legend>Dados do Produto</legend>
-                    <p>Nome: <input type="text" name="Nome" placeholder="Digite o nome do produto"><br></p>
-                    <p>Materia Prima: <input type="text" name="materiaPrima"><br></p>
-                    <p>Peso: <input type="text" name="peso"><br></p>
-                    <p>Dimensao do Produto: <input type="text" name="dimensaoProduto"><br></p>
-                    <p>Segmento: <select>
-                        <option value="decorativo">Decorativo</option>
-                        <option value="camaMesaBanho">Cama mesa e Banho</option>
-                        <option value="gastronomia">Gastronomia</option>
-                        <option value="mobiliario">Mobiliario</option>
-                        <option value="tapecaria">Tapecaria</option>
-                        <option value="souvenir">Souvenir</option>
-                        <option value="religioso">Religioso</option>
-                        <option value="instrumentoMusical">Instrumento Musical</option>
-                        <option value="papelaria">Papelaria</option>
-                    </select></p>
-                    <p>Preço: <input type="text" name="preco" placeholder="00,00"<br></p>
-                    <p>Descrição: <textarea name="descricao" style="width: 290px; height: 120px;"></textarea></p>
-                    <p>Artesão: <input type="text" name="artesao"> <button type="button" onclick="alert('Associar artesao a este produto, nao esquecer')">...</button></p>
-                    <button class="btn" type="button">Cadastrar</button>
-                    <button class="btn" type="button">Salvar</button>
-                    <button class="btn" type="button">Cancelar</button>
-            </fieldset>
+<head>
+    <meta charset="utf-8" />
+    <link href="CSS/CSS.css" type="text/css" rel="stylesheet">
+    <title>Cadastro de Produto</title>
+</head>
 
-        </main>
-    </body>
+<body>
+    <main>
+        <header lang="pt">
+            <ul>
+                <li class=".dropdownLi">
+                    <a class="active" href="HOME.html">Home</a>
+                </li>
+                <li class=".dropdownLi">
+                    <a href="Cadastro_Produto.html">Cadastro de Artesaos</a>
+                </li>
+                <li class=".dropdownLi">
+                    <a href="Cadastro_Artesao.html">Cadastro de Produtos</a>
+                </li>
+                <li style="float:right">
+                    <a href="#about">Sobre</a>
+                </li>
+                <li style="float: right">
+                    <a href="logout.html">Sair</a>
+                </li>
+            </ul>
+        </header>
+
+        <h1>Cadastro de Produtos</h1>
+
+        <fieldset>
+            <legend>Dados do Produto</legend>
+            <p>Nome:
+                <input type="text" name="Nome" placeholder="Digite o nome do produto">
+                <br>
+            </p>
+            <p>Materia Prima:
+                <input type="text" name="materiaPrima">
+                <br>
+            </p>
+            <p>Peso:
+                <input type="text" name="peso">
+                <br>
+            </p>
+            <p>Dimensao do Produto:
+                <input type="text" name="dimensaoProduto">
+                <br>
+            </p>
+            <p>Segmento:
+                <select>
+                    <option value="decorativo">Decorativo</option>
+                    <option value="camaMesaBanho">Cama mesa e Banho</option>
+                    <option value="gastronomia">Gastronomia</option>
+                    <option value="mobiliario">Mobiliario</option>
+                    <option value="tapecaria">Tapecaria</option>
+                    <option value="souvenir">Souvenir</option>
+                    <option value="religioso">Religioso</option>
+                    <option value="instrumentoMusical">Instrumento Musical</option>
+                    <option value="papelaria">Papelaria</option>
+                </select>
+            </p>
+            <p>Preço:
+                <input type="text" name="preco" placeholder="00,00" <br>
+            </p>
+            <p>Descrição:
+                <textarea name="descricao" style="width: 290px; height: 120px;"></textarea>
+            </p>
+            <p>Artesão:
+                <input type="text" name="artesao">
+                <button type="button" onclick="alert('Associar artesao a este produto, nao esquecer')">...</button>
+            </p>
+            <button class="btn" type="button">Cadastrar</button>
+            <button class="btn" type="button">Salvar</button>
+            <button class="btn" type="button">Cancelar</button>
+        </fieldset>
+
+    </main>
+</body>
 
 </html>
