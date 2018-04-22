@@ -37,42 +37,42 @@
         </ul>
     </header>
 
-    <h1>Cadastro de Artesaos</h1>
+    <div class="inputAlinhamento">
+        <h1>Cadastro de Artesaos</h1>
 
-    <p>Codigo:
-        <input type="text" name="codigo">
-        <br>
-    </p>
-    <p>Ativo</p>
-    <fieldset>
-        <legend>Dados</legend>
-        <p>Nome:
-            <input type="text" name="nomeArtesao">
+        <!--Verificar se este campo sera realmente util-->
+        <p><b>Codigo:</b> 
+            <input type="text" name="codigo">
             <br>
         </p>
-        <p>Nascimento:
+        <p><b>Ativo</b></p>
+        <fieldset class="fieldsetAlinhamento">
+            <legend><b>Dados</b></legend>
+
+            <p>Nome:</p>
+            <input type="text" name="nomeArtesao">
+            <br>
+            <p>Nascimento:</p>
             <input type="text" name="nascimento">
             <br>
-        </p>
-        <p>CPF:
+            <p>CPF:</p>
             <input type="text" name="cpf" id="cpf">
             <br>
-        </p>
-        <p>RG:
+            <p>RG:</p>
             <input type="text" name="rg" id="rg">
-        </p>
-        <p>Código Artesão
+            <br>
+            <p>Código Artesão</p>
             <input type="text" name="codArtesao">
-        </p>
-    </fieldset>
+            <br>
+        </fieldset>
 
-    <fieldset>
-        <legend>Endereço</legend>
-        <p>CEP:
+        <fieldset class="fieldsetAlinhamento">
+            <legend><b>Endereço</b></legend>
+
+            <p>CEP:</p>
             <input type="text" name="nomeArtesao">
             <br>
-        </p>
-        <p>
+
             <select name="estados">
                 <option value="">Selecione seu estado</option>
                 <option value="AC">AC</option>
@@ -104,35 +104,35 @@
                 <option value="TO">TO</option>
             </select>
             <br>
-        </p>
-        <p>Cidade:
-            <input type="text" name="cidade">
-            <br>
-        </p>
-        <p>Rua:
-            <input type="text" name="endereco">
-            <br>
-        </p>
-        <p>Bairro:
-            <input type="text" name="bairro">
-            <br>
-        </p>
-    </fieldset>
+            </p>
+            <p>Cidade:</p>
+                <input type="text" name="cidade">
+                <br>
+            
+            <p>Rua:</p>
+                <input type="text" name="endereco">
+                <br>
+            
+            <p>Bairro:</p>
+                <input type="text" name="bairro">
+                <br>
+            
+        </fieldset>
 
-    <fieldset>
-        <legend>Contato</legend>
-        <p>E-mail:
-            <input type="text" name="email">
-            <br>
-        </p>
-        <p>Celular:
-            <input type="text" name="celular">
-            <br>
-        </p>
-    </fieldset>
-    <button class="btn" type="button">Cadastrar</button>
-    <button class="btn" type="button">Cancelar</button>
-
+        <fieldset class="fieldsetAlinhamento">
+            <legend><b>Contato</b></legend>
+            <p>E-mail:</p>
+                <input type="text" name="email">
+                <br>
+            
+            <p>Celular:</p>
+                <input type="text" name="celular">
+                <br>
+            
+        </fieldset>
+        <button class="btn" type="button">Cadastrar</button>
+        <button class="btn" type="button">Cancelar</button>
+    </div>
 </body>
 
 </html>

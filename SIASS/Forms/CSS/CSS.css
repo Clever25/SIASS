@@ -88,6 +88,15 @@ span.psw {
     padding-top: 16px;
 }
 
+.inputAlinhamento {
+
+    margin-left: 10%;
+}
+
+.fieldsetAlinhamento{
+
+    margin-right: 50%;
+}
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
@@ -151,7 +160,9 @@ li.dropdown {
     margin: -2px;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
