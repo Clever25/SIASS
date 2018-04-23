@@ -33,15 +33,19 @@
           </div>
       
           <div class="container">
-            <label for="usuario"><b>Usuário</b></label>
-            <input type="text" placeholder="Digite o usuário" name="usuario" required>
+            <p><label for="usuario"><b>Usuário</b></label></p>
+            <input type="text" id="usuario" placeholder="Digite o usuário" name="usuario" required>
       
-            <label for="senha"><b>Senha</b></label>
-            <input type="password" placeholder="Digite a senha" name="senha" required>
+            <p><label for="senha"><b>Senha</b></label></p>
+            <input type="password" id="senha" placeholder="Digite a senha" name="senha" required >
               
-            <button type="submit">Entrar</button>
+            <p><button type="submit" onclick="validarLogin()">Entrar</button></p>
             <label>
               <input type="checkbox" checked="checked" name="remember"> Lembrar Senha
+            </label>
+            <label>
+                <input class="select" type="checkbox" onclick="mostrarSenha()"> Mostrar Senha
+            <br>
             </label>
           </div>
       
