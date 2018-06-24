@@ -1,0 +1,8 @@
+/*Alteracao no nav bar*/
+.imgNav img{
+    max-width:60px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+
+}
