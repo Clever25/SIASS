@@ -1,4 +1,5 @@
-/*Alteracao no nav bar*/
+/*Customização do navbar
+--------------------------------------------------------------------*/
 
 .imgNav img {
     max-width: 60px;
@@ -11,4 +12,17 @@
     .alinLogo {
         text-align: left;
     }
+}
+
+/*Customização do buttão
+--------------------------------------------------------------------*/
+.btn {
+    background-color: rgb(40, 143, 68);
+    color: white;
+    border-color: #28a745;
+}
+
+.btn-primary {
+    background-color: rgb(40, 143, 68) !important;
+    border-color: #28a745 !important;
 }

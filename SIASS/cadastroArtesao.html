@@ -55,12 +55,59 @@
             </form>
         </div>
     </nav>
-    <title>Hello, world!</title>
+    <title>SiAss</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <br>
+    <h1>Cadastro de Artesão</h1>
 
+    <form class="needs-validation" novalidate>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationTooltip01">Primeiro Nome</label>
+                <input type="text" class="form-control" id="validationTooltip01" placeholder="Primeiro Nome" required>
+                <div class="valid-tooltip">
+                    ótimo
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationTooltip02">Ultimo Nome</label>
+                <input type="text" class="form-control" id="validationTooltip02" placeholder="Ultimo Nome" required>
+                <div class="valid-tooltip">
+                    ótimo
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationTooltipUsername">E-mail</label>
+                <input type="email" class="form-control" id="emailArt" placeholder="E-mail">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationTooltip03">Cidade</label>
+                <input type="text" class="form-control" id="validationTooltip03" placeholder="Cidade" required>
+                <div class="invalid-tooltip">
+                    Por favor, insira uma cidade
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationTooltip04">Estado</label>
+                <input type="text" class="form-control" id="validationTooltip04" placeholder="Estado" required>
+                <div class="invalid-tooltip">
+                    Insira um estado válido.
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationTooltip05">CEP</label>
+                <input type="text" class="form-control" id="validationTooltip05" placeholder="00000-000" required>
+                <div class="invalid-tooltip">
+                    Insira um CEP válido.
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Cadastrar</button>
+    </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
