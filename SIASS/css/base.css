@@ -8,13 +8,19 @@
     height: auto;
 }
 
+.sair {
+    margin-left: 8px;
+    color: rgb(173, 201, 226);
+}
+
 @media only screen and (max-width: 400px) {
     .alinLogo {
+
         text-align: left;
     }
 }
 
-/*Customização do buttão
+/*Customização do butao
 --------------------------------------------------------------------*/
 .btn {
     background-color: rgb(40, 143, 68);

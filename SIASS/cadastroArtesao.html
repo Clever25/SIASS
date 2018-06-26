@@ -13,46 +13,49 @@
 
     <!--Inicio do navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">
-            <div class="imgNav alinLogo">
-                <img src="img/siassVerde.png" class="img-responsive" alt="Logo da Siass">
-            </div>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div class="imgNav alinLogo">
+                    <img src="img/siassVerde.png" class="img-responsive" alt="Logo da Siass">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">VerOQueColocar</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        Cadastros
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Cadastro de Artesaos</a>
-                        <a class="dropdown-item" href="#">Cadastro de Produtos</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Digite aqui para pesquisar..." aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">VerOQueColocar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Cadastros
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Cadastro de Artesaos</a>
+                            <a class="dropdown-item" href="#">Cadastro de Produtos</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Digite aqui para pesquisar..." aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    <a href="login.html" class="sair">Sair</a>
+                </form>
+            </div>
         </div>
     </nav>
     <title>SiAss</title>
@@ -60,62 +63,64 @@
 
 <body>
     <br>
-    <h1>Cadastro de Artesão</h1>
+    <div class="container">
+        <h1>Cadastro de Artesão</h1>
 
-    <form class="needs-validation" novalidate>
-        <div class="form-row">
-            <div class="col-md-4 mb-3">
-                <label for="validationTooltip01">Primeiro Nome</label>
-                <input type="text" class="form-control" id="validationTooltip01" placeholder="Primeiro Nome" required>
-                <div class="valid-tooltip">
-                    ótimo
+        <form class="needs-validation" novalidate>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltip01">Primeiro Nome</label>
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Primeiro Nome" required>
+                    <div class="valid-tooltip">
+                        ótimo
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltip02">Ultimo Nome</label>
+                    <input type="text" class="form-control" id="validationTooltip02" placeholder="Ultimo Nome" required>
+                    <div class="valid-tooltip">
+                        ótimo
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltipUsername">E-mail</label>
+                    <input type="email" class="form-control" id="emailArt" placeholder="E-mail">
                 </div>
             </div>
-            <div class="col-md-4 mb-3">
-                <label for="validationTooltip02">Ultimo Nome</label>
-                <input type="text" class="form-control" id="validationTooltip02" placeholder="Ultimo Nome" required>
-                <div class="valid-tooltip">
-                    ótimo
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationTooltip03">Cidade</label>
+                    <input type="text" class="form-control" id="validationTooltip03" placeholder="Cidade" required>
+                    <div class="invalid-tooltip">
+                        Por favor, insira uma cidade
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationTooltip04">Estado</label>
+                    <input type="text" class="form-control" id="validationTooltip04" placeholder="Estado" required>
+                    <div class="invalid-tooltip">
+                        Insira um estado válido.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationTooltip05">CEP</label>
+                    <input type="text" class="form-control" id="validationTooltip05" placeholder="00000-000" required>
+                    <div class="invalid-tooltip">
+                        Insira um CEP válido.
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-3">
-                <label for="validationTooltipUsername">E-mail</label>
-                <input type="email" class="form-control" id="emailArt" placeholder="E-mail">
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="col-md-6 mb-3">
-                <label for="validationTooltip03">Cidade</label>
-                <input type="text" class="form-control" id="validationTooltip03" placeholder="Cidade" required>
-                <div class="invalid-tooltip">
-                    Por favor, insira uma cidade
-                </div>
-            </div>
-            <div class="col-md-3 mb-3">
-                <label for="validationTooltip04">Estado</label>
-                <input type="text" class="form-control" id="validationTooltip04" placeholder="Estado" required>
-                <div class="invalid-tooltip">
-                    Insira um estado válido.
-                </div>
-            </div>
-            <div class="col-md-3 mb-3">
-                <label for="validationTooltip05">CEP</label>
-                <input type="text" class="form-control" id="validationTooltip05" placeholder="00000-000" required>
-                <div class="invalid-tooltip">
-                    Insira um CEP válido.
-                </div>
-            </div>
-        </div>
-        <button class="btn btn-primary" type="submit">Cadastrar</button>
-    </form>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
+            <button class="btn btn-primary" type="submit">Cadastrar</button>
+        </form>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
