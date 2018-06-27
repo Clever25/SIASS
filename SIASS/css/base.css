@@ -32,3 +32,13 @@
     background-color: rgb(40, 143, 68) !important;
     border-color: #28a745 !important;
 }
+
+/*Customizacao da tela de Login
+--------------------------------------------------------------------*/
+@media only screen and (min-width: 1200px) {
+    .containerLogin {
+        padding: 50px;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
