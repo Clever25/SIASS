@@ -20,7 +20,7 @@
     }
 }
 
-/*Customização do butao
+/*Customização do botão
 --------------------------------------------------------------------*/
 .btn {
     background-color: rgb(40, 143, 68);
@@ -41,4 +41,10 @@
         padding-left: 300px;
         padding-right: 300px;
     }
+}
+
+/*Customizacao dos ícones
+--------------------------------------------------------------------*/
+.fas{
+    color: blue !important;
 }
