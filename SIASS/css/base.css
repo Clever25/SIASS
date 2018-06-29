@@ -10,7 +10,7 @@
 
 .sair {
     margin-left: 8px;
-    color: rgb(173, 201, 226);
+    color: white;
 }
 
 .nav-link {
@@ -63,6 +63,13 @@
 --------------------------------------------------------------------*/
 
 .fas {
+
+    color: rgb(40, 143, 68);
+    margin: 3px;
+}
+
+.far {
+    
     color: rgb(40, 143, 68);
     margin: 3px;
 }
@@ -86,4 +93,11 @@ body {
     padding: 40px;
     border: 2px solid white;
     border-radius: 5px;
+}
+
+/*Customização do toggle
+--------------------------------------------------------------------*/
+.navbar-toggler {
+    background-color: rgb(40, 143, 68); 
+    color: white;
 }
