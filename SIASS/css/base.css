@@ -13,15 +13,31 @@
     color: rgb(173, 201, 226);
 }
 
+.nav-link {
+    color: white !important;
+}
+
+/*Customização em smartphone
+--------------------------------------------------------------------*/
+
+/*Customização do navbar em smartphone
+--------------------------------------------------------------------*/
+
 @media only screen and (max-width: 400px) {
     .alinLogo {
-
-        text-align: left;
+        text-align: center;
     }
+    /*Customização do body
+--------------------------------------------------------------------*/
+    body {
+        background-color: white !important;
+    }
+
 }
 
 /*Customização do botão
 --------------------------------------------------------------------*/
+
 .btn {
     background-color: rgb(40, 143, 68);
     color: white;
@@ -33,11 +49,11 @@
     border-color: #28a745 !important;
 }
 
-/*Customizacao da tela de Login
+/*Customizacao da tela de Login em Desktop
 --------------------------------------------------------------------*/
+
 @media only screen and (min-width: 1200px) {
     .containerLogin {
-        padding: 50px;
         padding-left: 300px;
         padding-right: 300px;
     }
@@ -45,6 +61,29 @@
 
 /*Customizacao dos ícones
 --------------------------------------------------------------------*/
-.fas{
-    color: blue !important;
+
+.fas {
+    color: rgb(40, 143, 68);
+    margin: 3px;
+}
+
+.colorbtn {
+    color: white;
+}
+/*Customização do body
+--------------------------------------------------------------------*/
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container .containerBody {
+    background-color: white;
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
 }
