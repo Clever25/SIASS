@@ -32,7 +32,6 @@
     body {
         background-color: white !important;
     }
-
 }
 
 /*Customização do botão
@@ -63,13 +62,11 @@
 --------------------------------------------------------------------*/
 
 .fas {
-
     color: rgb(40, 143, 68);
     margin: 3px;
 }
 
 .far {
-    
     color: rgb(40, 143, 68);
     margin: 3px;
 }
@@ -77,6 +74,7 @@
 .colorbtn {
     color: white;
 }
+
 /*Customização do body
 --------------------------------------------------------------------*/
 
@@ -97,7 +95,18 @@ body {
 
 /*Customização do toggle
 --------------------------------------------------------------------*/
+
 .navbar-toggler {
-    background-color: rgb(40, 143, 68); 
+    background-color: rgb(40, 143, 68);
     color: white;
+}
+
+/*Customização da tela de Login
+--------------------------------------------------------------------*/
+
+.logoLogin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
 }
