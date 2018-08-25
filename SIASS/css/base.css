@@ -17,9 +17,6 @@
     color: white !important;
 }
 
-.navbar{
-    height: 80px;
-}
 /*Customização em smartphone
 --------------------------------------------------------------------*/
 
@@ -58,6 +55,10 @@
     .containerLogin {
         padding-left: 300px;
         padding-right: 300px;
+    }
+    /*Custmozacao da nav bar (Desktop)*/
+    .navbar {
+        height: 80px;
     }
 }
 
